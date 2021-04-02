@@ -1,0 +1,108 @@
+body {
+    background-color: #efefef;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+#logout {
+    position: absolute;
+    right: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: lightseagreen;
+    padding: 5px 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 60%;
+    margin: auto;
+    grid-gap: 15px;
+}
+
+section.grid article {
+    background-color: white;
+    text-align: center;
+    padding: 15px
+}
+
+section.grid article ul {
+    padding: 0;
+}
+
+section.grid article ul li {
+    list-style-type: none;
+}
+
+section.grid article ul li a {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+section{
+    position: relative;
+}
+
+form{
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+    margin-top: 100px;
+}
+
+label{
+    display: block;
+    text-align: center;
+}
+
+input, select, textarea{
+    display: block;
+    margin: 10px auto;
+    width: 165px;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    border: none;
+    background-color: lightseagreen;
+    color: white;
+    margin-top: 20px;
+}
+
+textarea{
+    max-width: 165px;
+    min-height: 100px
+}
+
+option:disabled{
+    font-weight: bold;
+    color: black;
+    font-size: 1.1em;
+}
+
+article img{
+    max-width: 100%;
+}
