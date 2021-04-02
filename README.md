@@ -9,10 +9,10 @@ Make sure to import the products.sql to a mysql database engine. After that, mak
 
 2. Open Apache server
 Open an apache server in this repository root, with command 
- > php -S [host]:[port]
+``` php -S [host]:[port] ```
 example:
- > php -S localhost:8000 
-3. Go to [host]:[port]/index.php
-If you navigate to [host]:[port]/index.php you should be redirected to login page (if you are not logged in). Register and login with your new account. Don't use a real password, since passwords are not encrypted in database.
+``` php -S localhost:8000 ```
+3. Go to ```[host]:[port]/index.php```
+If you navigate to ```[host]:[port]/index.php``` you should be redirected to login page (if you are not logged in). Register and login with your new account. Don't use a real password, since passwords are not encrypted in database.
 
 To become an admin, go to your database, users table and change 'is_admin' field to 1.
